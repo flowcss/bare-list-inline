@@ -1,0 +1,23 @@
+/* 
+   #list-inline
+   ========================================================================== */
+
+/**
+ * The list-inline object is used to create inline lists.
+ *
+ * <ul class="bare-list-inline">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+
+.bare-list-inline {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+	.bare-list-inline > li {
+		display: inline-block;
+	}

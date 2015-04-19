@@ -1,0 +1,20 @@
+{
+  "name": "bare-list-inline",
+  "version": "0.1.0",
+  "authors": [
+    "Eric-Harms <barefoot.css@gmail.com>"
+  ],
+  "description": "The list-inline object is used to create inline lists.",
+  "main": "list-inline.css",
+  "keywords": [
+    "Css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

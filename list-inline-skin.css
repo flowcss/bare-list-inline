@@ -1,0 +1,17 @@
+ /* 
+   #list-inline--delimited
+   ========================================================================== */
+
+/**
+ * The list-inline--delimited modifier is used to create delimited lists.
+ *
+ * <ul class="bare-list-inline bare-list-inline--delimited">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+
+.bare-list-inline--delmited > li + li:before {
+	content: " | ";
+}
